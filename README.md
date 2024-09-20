@@ -1,50 +1,54 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Masjid Al-Kandari
+<img src="screenshot/thumbnail.jpg" />
 
-Currently, two official plugins are available:
+This repository contains the landing page project for the Masjid Al-Kandari challenge, provided by [codedesign.dev](https://www.codedesign.dev). The goal of this challenge is to design and develop a modern, responsive landing page for Masjid Al-Kandari, incorporating aesthetics, user-friendly navigation, and clear information presentation.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Details
+The challenge involves creating an elegant, visually appealing landing page with the following key elements:
 
-## Expanding the ESLint configuration
+1. Responsive Design: Ensure that the landing page is accessible and displays correctly across different devices and screen sizes.
+2. Hero Section: A well-designed hero section that introduces Masjid Al-Kandari with a relevant image and message.
+3. Features: A section highlighting the key services or features provided by Masjid Al-Kandari.
+4. Photo: Clearly present the mosque's photo details from various sides.
+5. Location: Using [Maps.ie](https://www.maps.ie/create-google-map/) to show the location of masque with Google Maps API to include in iframe tag.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+For more information on the challenge, visit the [challenge link](https://codedesign.dev/challenge/masjid-al-kandari).
 
-- Configure the top-level `parserOptions` property like this:
+## Tech Stack
+- HTML5 & CSS3: For structuring and styling the landing page.
+- JavaScript: For any dynamic interactions or animations.
+- Tailwind CSS: To ensure responsive design and easy utility-based styling.
+- ReactJS: JavaScript Library to build an interactive website.
+- Vite: A build tool that aims to provide a faster and leaner development experience for modern web projects
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## Installation
+Follow these steps to install this project:
+1. **Clone this Repository** :
+```bash
+git clone https://github.com/fathanmaul/al-kandari.git
+cd FrontendDevReactjs-1-FathanMaulana
+```
+2. **Install Depedencies**
+```bash
+npm install
+```
+3. **Running the Application**
+```bash
+npm run dev
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+This command will start a local development server and open your default browser to [http://localhost:5173](http://localhost:5173`).
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Thanks to the Designer
+A big thanks to the designer who crafted the vision for Masjid Al-Kandari. Their creative direction and design inspiration served as the foundation for this project. Without their valuable contributions, this landing page wouldn't be possible.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+For more of their work, check out their portfolio [here](https://www.figma.com/@fdhlnrzzmn)
+
+
+## Credits
+- [Code Design](https://codedesign.dev/)
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
