@@ -1,5 +1,4 @@
 import { FaMosque } from "react-icons/fa6";
-import logo from "../../assets/icon.svg";
 export default function MainIcon({ inverse }: { inverse?: boolean }) {
   return (
     <div className="flex items-center gap-2">
