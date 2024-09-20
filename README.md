@@ -45,6 +45,8 @@ A big thanks to the designer who crafted the vision for Masjid Al-Kandari. Their
 
 For more of their work, check out their portfolio [here](https://www.figma.com/@fdhlnrzzmn)
 
+## Contribution
+If you'd like to contribute to this project, whether by reporting bugs or suggesting improvements, feel free to open an issue or submit a pull request (PR). Contributions are always welcome, and you can help enhance the project by adding features, fixing bugs, or improving the documentation.
 
 ## Credits
 - [Code Design](https://codedesign.dev/)
@@ -52,3 +54,5 @@ For more of their work, check out their portfolio [here](https://www.figma.com/@
 - [Vite](https://vitejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [React Icons](https://react-icons.github.io/react-icons/)
+
+If you have any questions or feedback, feel free to reach out to me at [fthnmrh012@gmail.com](mailto:fthnmrh012@gmail.com)
