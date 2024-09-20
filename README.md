@@ -27,7 +27,7 @@ Follow these steps to install this project:
 1. **Clone this Repository** :
 ```bash
 git clone https://github.com/fathanmaul/al-kandari.git
-cd FrontendDevReactjs-1-FathanMaulana
+cd al-kandari
 ```
 2. **Install Depedencies**
 ```bash
