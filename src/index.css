@@ -1,0 +1,29 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base{
+  body {
+    font-family: "Hanken Grotesk", sans-serif, monospace;
+  }
+}
+
+@layer components{
+  .hero {
+    background-image: url('assets/images/landing/hero_background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .navbar{
+    @apply absolute z-40 top-0 left-0 right-0 text-white transition-all duration-300
+  }
+
+  .navbar-scroll{
+    @apply fixed top-0 bg-white text-black shadow-md
+
+    
+  }
+
+}
