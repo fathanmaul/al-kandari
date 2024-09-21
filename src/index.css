@@ -10,7 +10,7 @@
 
 @layer components{
   .hero {
-    background-image: url('assets/images/landing/hero_background.png');
+    background-image: url('assets/hero_background.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
