@@ -40,6 +40,9 @@ npm run dev
 
 This command will start a local development server and open your default browser to [http://localhost:5173](http://localhost:5173`).
 
+## Deployment
+This project is successfully deployed in Vercel. You can access the website within this link: [Al-Kandari](https://al-kandari.vercel.app/)
+
 ## Thanks to the Designer
 A big thanks to the designer who crafted the vision for Masjid Al-Kandari. Their creative direction and design inspiration served as the foundation for this project. Without their valuable contributions, this landing page wouldn't be possible.
 
